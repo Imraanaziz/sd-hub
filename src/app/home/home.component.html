@@ -1,0 +1,92 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" />
+
+<div class="home-container">
+    <!-- Navigation Bar -->
+    <header>
+      <nav>
+        <ul>
+          <div class="corner">
+          <li class="loginn"><a routerLink="/login">Login</a></li>
+          <li>
+            <a routerLink="/dashboard">
+              <span class="material-symbols-outlined">
+            home
+            </span>
+            </a>
+          </li>
+        </div>
+
+        </ul>
+      </nav>
+    </header> 
+    <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to Your Online Library</h1>
+    <p>Explore a wide variety of books in every genre. Start your reading journey today!</p>
+    <a routerLink="/bookList" class="cta-button">Search Book</a>
+  </section>
+  <!--featured books -->
+  <section class="featured-books">
+    <h2>Here are some Featured Books</h2>
+    <div >
+      <!-- Loop through featured books dynamically or display a few static examples -->
+      <mat-grid-list class="book-preview" cols="2" rowheight="475px">
+
+        <mat-grid-tile class="book"> 
+        <div>
+          <img src="The Self-Motivation Mindset Journal for Men.jpg" alt="Stickman" width="100" height="150">
+          <h3>The Self-Motivation Mindset Journal for Men</h3>
+          <p>Author:  Heath Dixon </p>
+          <button routerLink="The Self-Motivation Mindset Journal for Men.jpg">View Details</button>
+        </div> 
+        </mat-grid-tile>
+
+        <mat-grid-tile class="book">
+            <div>
+                <img src="psychology of humans behavior.jpg" alt="Stickman" width="100" height="150">
+                <h3>Psychology of Human Behavior         </h3>
+                <p>Author: Nancy lui</p>
+                <button routerLink="psychology of humans behavior.jpg">View Details</button>
+              </div> 
+        </mat-grid-tile>
+
+        <mat-grid-tile class="book">
+            <div>
+            <img src="All-Time Great Stories of Rabindranath Tagore.jpg" alt="Stickman" width="100" height="150">
+            <h3>All Time Great Stories of Rabindranath Tagore </h3>
+            <p>Author: Noble Laureate</p>
+            <button routerLink="All-Time Great Stories of Rabindranath Tagore.jpg">View Details</button>
+          </div>
+        </mat-grid-tile>
+
+        <mat-grid-tile class="book">
+            <div>
+                <img src="A Court of Mist and Fury.jpg" alt="Stickman" width="100" height="150">
+                <h3>A Court of Mist and Fury</h3>
+                <p>Author: Sarah J. Maas</p>
+                <button routerLink="A Court of Mist and Fury.jpg">View Details</button>
+              </div>
+        </mat-grid-tile> 
+
+        <mat-grid-tile class="book">
+            <div>  
+                <img src="Atomic  Habits.jpg" alt="Stickman" width="100" height="150">
+                <h3>Atomic Habits</h3>
+                <p>Author: James Clear</p>
+                <button routerLink="OnlineLibrary\public\Books\Atomic  Habits.jpg">View Details</button>
+              </div> 
+        </mat-grid-tile>
+
+        <mat-grid-tile class="book">
+            <div>  
+                <img src="Rich-dad-poor-dad.jpg" alt="Stickman" width="100" height="150">
+                <h3>Rich-dad-poor-dad</h3>
+                <p>Author:  Robert Kiyosaki, Sharon Lechter </p>
+                <button routerLink="Rich-dad-poor-dad.jpg">View Details</button>
+              </div> 
+        </mat-grid-tile> 
+      </mat-grid-list>
+     </div>
+    </section>
+</div>
+

@@ -1,0 +1,139 @@
+/* Home Container */
+.home-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Navigation Bar */
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  
+  header nav ul li a:hover {
+    color: black; 
+    border-radius: 50px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    background-color: lightblue;
+    padding: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .hero .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .hero .cta-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Featured Books Section */
+  .featured-books {
+    text-align: center;
+  }
+  
+  .featured-books h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .book-preview {
+    display: block;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .book {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  .book h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .book p {
+    color: #777;
+  }
+  
+  .book button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book button:hover {
+    background-color: #45a049;
+  }
+
+
+
+  .corner {
+    position: fixed;
+    top: 10px; /* Adjust to your preferred distance from the top */
+    right: 10px; /* Adjust to your preferred distance from the right */
+    list-style: none;
+    display: flex;
+    gap: 10px; /* Space between the items */
+    z-index: 1000; /* Ensure the buttons appear on top of other elements */
+  }
+  
+  .corner li {
+    display: inline-block;
+  }
+  
+  .corner a, .corner span {
+    text-decoration: none;
+    color: #000; /* You can change this color to fit your design */
+  }
+  
+.loginn{
+  background-color: #45a049;
+  border-radius: 20px;
+  padding: 15px;
+}
